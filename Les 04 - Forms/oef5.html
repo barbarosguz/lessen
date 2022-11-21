@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oef5</title>
+</head>
+<body>
+    <main>
+        <form action="https://tm-statweb.be/forms.php" method="post">
+            <label for="voornaam">Voornaam: </label>
+            <input type="text" name="voornaam" id="voornaam"><br>
+            <label for="fnaam">Familienaam: </label>
+            <input type="text" name="fnaam" id="Familienaam"><br>
+            <label for="adres">Adres:</label>
+            <input type="text" name="adres" id="adres"><br>
+            <select name="provincie" id="provincie">
+                <option value="Antwerpen">Antwerpen</option>
+                <option value="Limburg">Limburg</option>
+                <option value="Oostvlaanderen">Oost-Vlaanderen</option>
+                <option value="Vlaamsbrabant">Vlaams-Brabant</option>
+                <option value="Westvlaanderen">West-Vlaanderen</option>
+                <option value="Waalsbrabant">Waals-Brabant</option>
+                <option value="Henegouwen">Henegouwen</option>
+                <option value="Luik">Luik</option>
+                <option value="Luxemburg">Luxemburg</option>
+                <option value="Namen">Namen</option>
+            </select>
+            Geslacht <br>
+            <input type="radio" id="vrouw" name="geslacht" value="vrouw">
+            <label for="vrouw">vrouw</label>
+            <input type="radio" id="man" name="geslacht" value="man">
+            <label for="man">man</label>
+            <input type="radio" id="anderen" name="geslacht" value="anderen">
+            <label for="anderen">anderen</label><br>
+            
+        </form>
+    </main>
+</body>
+</html>

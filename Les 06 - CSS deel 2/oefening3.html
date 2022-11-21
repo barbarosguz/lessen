@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>oefening 3</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Create two unequal columns that floats next to each other */
+      .column {
+        float: left;
+        padding: 15px;
+      }
+
+      .left {
+        width: 30%;
+      }
+
+      .right {
+        width: 70%;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="column left">
+        <h2>Column</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi
+          impedit maxime assumenda, explicabo nisi quidem laudantium, reiciendis
+          accusantium voluptatum quos necessitatibus aspernatur? Aliquam neque
+          voluptatibus, sunt eius tenetur eos minus.
+        </p>
+      </div>
+      <div class="column right">
+        <h2>Column</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, ex
+          temporibus, non esse magnam, facilis est excepturi velit deleniti
+          necessitatibus tempora maxime nisi blanditiis. Enim placeat
+          dignissimos odio. In, dolor.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

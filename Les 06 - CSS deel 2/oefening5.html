@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>oefening5</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      .header {
+        height: 60px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 5px;
+      }
+      .column {
+        float: left;
+        padding: 5px;
+      }
+
+      .left {
+        width: 30%;
+        background-color: rgb(222, 222, 222);
+        height: 500px;
+        line-height: 25px;
+      }
+
+      .right {
+        width: 70%;
+        height: 500px;
+        line-height: 45px;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .footer
+      {
+       height: 30px;
+       width: 100%;
+       background-color: black;
+       color: white;
+        text-align: center;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>City info</h1>
+    </div>
+    <div class="row">
+      <div class="column left">
+        <p>London</p>
+        <p>Paris</p>
+        <p>Tokyo</p>
+      </div>
+      <div class="column right">
+        <h2>London Bridge</h2>
+        <p>Look at this awesome bridge.</p>
+        <img src="img/london.jpg" alt="" width="500px" />
+      </div>
+    </div>
+    <div class="footer">
+        <p>Copyright</p>
+    </div>
+  </body>
+</html>
